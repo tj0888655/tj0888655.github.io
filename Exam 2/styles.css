@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+/*  CIS - 130 Web Development I
+    Exam 2
+    Name: Timoteo Jinks
+    Date:  10/14/2023
+
+    File Name: styles.css
+
+*/
+
+
+/* HTML and Body styles */
+
+html {
+    background-color: #474448;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+
+}
+
+body { 
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #FEE1C7;
+}
+
+/* Navigation styles */
+
+nav.navBar {
+    background-color: #0C120C;
+
+}
+
+nav.navBar ul li:first-of-type {
+   list-style-image: url(images/homeicon.png);
+
+}
+
+nav.navBar ul li:nth-of-type(2) {
+   list-style-image: url(images/hotelicon.png);
+
+}
+
+nav.navBar ul li:last-of-type {
+   list-style-image: url(images/locationicon.png);
+
+}
+
+
+nav.navBar > ul {
+   display: none;
+
+}
+
+a#hamburger:hover+ul, ul:hover {
+   display: block;
+
+}
+
+nav.navBar ul li {
+    line-height: 2em;
+    padding-left: 10px;
+    width: 100%;
+ }
+ 
+ nav.navBar ul li a {
+    color: white;
+    display: block;
+ }
+
+ nav.navBar ul li a:link, nav.navBar ul li a:visited {
+   text-decoration: none;
+
+ }
+
+ nav.navBar ul li a:hover {
+   color: red;
+ }
+ 
+ 
+ nav.navBar::after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ /* Header Styles */
+
+ header.topBanner {
+    background-color: #57A773;
+
+ }
+
+ header.topBanner img#logo {
+
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   
+   width: 100%;
+   object-fit: fill;
+   object-position: 0px 100%;
+
+   flex-basis: 200px; 
+   flex-grow: 2;
+   flex-shrink: 1;
+
+   
+ }
+
+ #hamburger img{
+   width: 10%;
+   height: 7%;
+
+ }
+
+ .dogBanner {
+   display: none;
+
+ }
+
+ 
+ .puppy { 
+   width: 100%;
+   height: 200px;
+
+}
+
+.hotelFont > div > p { 
+   font-size: 1.1em;
+   
+
+}
+
+
+
+ /* Flex Containers */
+.flex-container {
+   display: -webkit-flex;
+   display:flex;
+
+   -webkit-flex-direction: row;
+   flex-direction: row; 
+
+
+   justify-content: center;
+
+}
+
+.flex-container > div {
+
+   width: 100%;
+   margin: 2%;
+   text-align: center;
+   line-height: 35px;
+   font-size: 2em;
+ }
+
+
+ .flex-container2 {
+   display: -webkit-flex;
+   display:flex;
+
+   -webkit-flex-direction: column;
+   flex-direction: column; 
+
+   justify-content: center;
+
+}
+
+.flex-container2 > div {
+
+   width: 100%;
+   margin: 2%;
+   text-align: left;
+   line-height: 35px;
+   font-size: 1.35em;
+ }
+
+
+
+ /* Column Styles */
+
+ .col1 img {
+   display: none;
+  
+
+ }
+
+ .col2, .col3 {
+   display: none;
+
+   }
+
+ /* Footer Styles */
+
+ footer {
+   color: #dbdbdb;
+   background-color: #D05353;
+   text-align: center;
+   
+   
+
+ }
+
+
+/* Font styles */
+
+.comName { 
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: left;
+}
+
+.hotelFont { 
+   margin: 5%;
+
+}
+
+/*  ================================
+    Tablet Styles: 481px - 769px
+    ================================
+*/
+
+@media only screen and (min-width: 481px) {
+
+   header.topBanner img#logo { 
+      height: 315px;
+
+   }
+
+   .puppy { 
+      height: 50%;
+
+
+   }
+
+   .puppy {
+      width: 40%;
+      float: right; 
+      margin-left: 3%;     
+   }
+
+  
+
+   .dogBanner {
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   
+   width: 100%;
+   object-fit: fill;
+   object-position: 0px 100%;
+
+   flex-basis: 150px; 
+   flex-grow: 3;
+   flex-shrink: 1;
+      
+
+   }
+
+   h1 {
+      font-size: 40px;
+
+   }
+
+   .col1 img {
+      display: block;
+     width: 100%;
+    
+
+   }
+
+   .hotelFont > div > p { 
+      font-size: 1.3em;
+      margin-right: 10%;
+
+   }
+
+ 
+
+   .col2 {
+      display: block;
+     
+
+   }
+
+   .col2 img {
+   width: 100%;
+ 
+
+   }
+
+   nav.navBar > ul {
+      display: -webkit-flex;
+      display: flex;
+      width: 100%;
+      
+      font-size: 20px;
+      flex-basis: 50px;
+      flex-grow: 2;
+      flex-shrink: 1;
+   
+   }
+
+   #hamburger {
+      display: none;
+
+   }
+
+   .navBar {
+
+      display: -webkit-flex;
+      display:flex;
+
+      -webkit-flex-direction: row;
+      flex-direction: row; 
+    
+   
+   }
+
+} /* <---- End of Tablet Styles */
+
+@media only screen and (min-width: 769px) {
+   
+   .col3 {
+      display: block;
+
+   }
+
+
+   .hotelFont > div > p { 
+      font-size: 2em;
+      margin-right: 10%;
+
+   }
+
+   .puppy { 
+      width: 40%;
+
+   }
+
+   .flex-container > div:nth-of-type(3) { 
+      background-color: #D9D9D9;
+      padding: 2%;
+
+   }
+
+}

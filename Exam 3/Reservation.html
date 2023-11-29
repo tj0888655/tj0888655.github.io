@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+
+Exam 3
+
+Name: Timoteo Jinks
+Date: 11/10/23
+
+File Name: Reservation.html
+
+
+-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve a Tour or Party</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <img class="trainPic" src="Reserve.PNG" alt="fancy man">
+            <img class="logoPic" src="RHM_Logo.png" alt="Logo">
+        </header>
+
+        <div class="div1">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="Reservation.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <h1>Reserve a Tour or Party</h1>
+
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>
+                        Contact Information
+                    </legend>
+
+                    <ul>
+                        <li>
+                            <label for="firstName">
+                                Host's First Name:
+                                <input autofocus type="text" name="fname" id="firstName" required
+                                    placeholder="First Name" />
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="lastName">
+                                Host's Last Name:
+                                <input type="text" name="lname" id="lastName" required placeholder="Last Name" />
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="phone">
+                                Host's Phone: +1
+                                <input type="tel" name="phone#" id="phone" required placeholder="123-456-7890"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="email">
+                                Host's Email:
+                                <input type="email" name="email" id="email" required placeholder="Email@Example.com" />
+
+                            </label>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Reservation Request
+                    </legend>
+
+                    <ul>
+                        <li>
+                            <label for="party">
+
+                                Party/Tour/Inquiry:
+                                <select name="visit" id="party">
+                                    <option value="b-day">Birthday Party</option>
+                                    <option value="p-tour">Private Tour</option>
+                                    <option value="vol">Volunteer Inquiry</option>
+
+                                </select>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="day">
+
+                                Day:
+                                <select name="day" id="day">
+                                    <option value="mon">Monday</option>
+                                    <option value="tues">Tuesday</option>
+                                    <option value="wed">Wednesday</option>
+                                    <option value="thur">Thursday</option>
+                                    <option value="fri">Friday</option>
+                                    <option value="sat">Saturday</option>
+
+
+                                </select>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="hour">
+
+                                Time:
+                                <input class="posReset" type="number" id="hour" name="hour" min="1" max="12" required />
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="am">
+                                <input class="posReset" type="radio" id="am" name="tod" value="am">
+                                AM
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="pm">
+                                <input class="posReset" type="radio" id="pm" name="tod" value="pm">
+                                PM
+                            </label>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>
+                        Group Type
+                    </legend>
+
+                    <ul class="Gtype">
+                        <li>
+                            <label for="edu">
+
+                                <input type="radio" id="edu" name="group" value="edu">
+                                EDUCATIONAL
+
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="chari">
+
+                                <input type="radio" id="chari" name="group" value="chari">
+                                CHARITABLE
+
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="civ">
+
+                                <input type="radio" id="civ" name="group" value="civ">
+                                CIVIC
+
+
+                            </label>
+                        </li>
+
+                        <li>
+                            <label for="fam">
+                                <input type="radio" id="fam" name="group" value="fam">
+                                FAMILY
+
+
+                            </label>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>
+                        Additional Info
+                    </legend>
+
+                    <textarea id="addinfo" name="addinfo"
+                        placeholder="Any Additional Info about group size and/or Organization" rows="4"
+                        cols="50"></textarea>
+
+
+                </fieldset>
+
+                <input class="submit" type="submit" value="Submit" />
+
+
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        RHM INC. 2023
+        &#8226; 417-343-6838
+        &#8226; railroadhistoricalmuseum@yahoo.com
+        &#8226; 1353 North Douglas Avenue, Springfield, Missouri
+    </footer>
+</body>
+
+</html>

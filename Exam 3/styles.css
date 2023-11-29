@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+/*
+
+Exam 3
+
+Name: Timoteo Jinks
+Date: 11/10/23
+
+File Name: styles.css
+
+*/
+
+/* Html and Body styles */
+
+html {
+    background-color: #25291C;
+
+}
+
+body {
+    background-color: #25291C;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* img styles */
+
+.trainPic {
+    width: 100%;
+    height: 230px;
+    object-fit: fill;
+    object-position: 0px 80%;
+    padding-bottom: 20px;
+
+}
+
+.logoPic {
+    width: 15%;
+    height: 150px;
+    position: absolute;
+    left: 75%
+}
+
+/* nav styles */
+
+div>nav {
+    font-size: 0.95em;
+    line-height: 2em;
+    width: 200px;
+    float: left;
+    margin: .5%;
+
+}
+
+nav>ul {
+    list-style-type: none;
+    margin-right: 40px;
+    padding-left: 0px;
+
+}
+
+nav>ul>li {
+    border: 1px solid #25291C;
+    background-color: #8DA1B9;
+    text-align: center;
+
+
+}
+
+
+nav>ul>li>a:visited,
+nav>ul>li>a:link {
+    color: black;
+    text-decoration: none;
+    margin-left: 3%;
+
+
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:active {
+    color: white;
+    text-decoration: underline;
+    border: none;
+
+}
+
+/* div styles */
+
+.container {
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+
+    justify-content: center;
+}
+
+.div1 {
+    padding-top: 20px;
+    margin: auto;
+    width: 90%;
+    background-color: #cccc99;
+    padding-bottom: 20px;
+    box-shadow: 3px 7px 20px 10px #2F0601;
+
+}
+
+
+div.div1>h1 {
+    margin-left: 13%;
+    text-align: center;
+
+}
+
+div.div1>h2 {
+    text-align: center;
+
+}
+
+div.div1>p {
+
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin-left: 20%;
+    text-align: center;
+    padding: 0px 30px 10px 0px;
+
+}
+
+div.div1>ul>li {
+    padding: 0px 30px 10px 0px;
+
+    font-size: 1.1em;
+}
+
+/* footer styles */
+
+footer {
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+    order: 99;
+
+    justify-content: center;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+
+    background-color: #023436;
+    color: azure;
+
+    margin-top: 30%;
+    height: 50px;
+
+    border-top: 2.5px solid #011a1b;
+    border-left: 2.5px solid #011a1b;
+    border-right: 2.5px solid #011a1b;
+
+}
+
+.contactFoot {
+    margin-top: 35%;
+
+}
+
+/* table styles */
+
+table {
+    background-color: #143109;
+    margin: auto;
+    padding: 0px 10px 10px 10px;
+    width: 72%;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    border: 4px #0DAB76 solid;
+    color: black;
+}
+
+tr,
+td,
+th {
+    width: 64px;
+    height: 64px;
+    background-color: #EC9192;
+
+}
+
+/* Fieldset styles */
+
+fieldset {
+    margin: 0 5% 0 34%;
+    text-align: center;
+    width: 60%;
+
+}
+
+fieldset>ul {
+    text-align: left;
+    position: relative;
+    line-height: 2em;
+    list-style: none;
+
+}
+
+fieldset>ul>li>label>input {
+    width: 45%;
+    position: absolute;
+    left: 40%;
+    line-height: 1.8em;
+
+}
+
+.posReset {
+    width: 10%;
+    left: 150px;
+    position: unset;
+}
+
+.submit {
+
+    margin: 0 5% 0 20%;
+}
+
+textarea {
+    width: 100%;
+}
+
+/* ===================End of Desktop Styles==================== */
+
+
+@media screen and (max-width: 834px) {
+
+
+
+
+
+    div>nav {
+
+        width: 100%;
+        display: table-cell;
+        margin-left: 5%;
+
+
+    }
+
+
+
+    div.div1>h1 {
+        margin: auto;
+        text-align: center;
+
+    }
+
+    div.div1>h2 {
+        text-align: center;
+
+    }
+
+    div.div1>p {
+
+        margin-left: 10%;
+
+    }
+
+    table {
+        display: none;
+    }
+
+    fieldset {
+        margin: 0 0 0 20%;
+
+    }
+
+    fieldset>ul>li>label {
+
+        position: initial;
+        font-size: 0.9em;
+    }
+
+    fieldset>ul>li>label>input {
+        width: 100%;
+        position: initial;
+    }
+
+    ul.Gtype>li>label>input {
+
+        position: absolute;
+        font-size: 0.9em;
+    }
+
+
+
+    .posReset {
+        width: 25%;
+
+    }
+
+    textarea {
+        width: 70%;
+
+    }
+
+    .contactText {
+
+        list-style: none;
+        font-size: 0.8em;
+    }
+
+
+    footer {
+        font-size: 1em;
+        height: 100px;
+        margin-top: 50%;
+
+    }
+
+    .contactFoot {
+        margin-top: 75%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    header {
+        display: none;
+    }
+
+    div.div1 {
+        width: 100%;
+
+    }
+
+    footer {
+        margin-top: 110%;
+        font-size: 0.7em;
+    }
+
+    .contactFoot {
+        margin-top: 150%;
+
+    }
+
+
+}
