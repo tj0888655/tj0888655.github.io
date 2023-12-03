@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--
+    Name: Timoteo Jinks
+    Date: 11/4/2023
+
+    file: index.html
+
+
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Make an Appointment for Advising</h1>
+
+    <div class="container">
+
+        <h1>Form with Get Request</h1>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="firstName">
+                    Name:
+                    <input autofocus type="text" name="fname" id="firstName" required placeholder="First Name" />
+
+                </label>
+
+                <label for="lastName">
+                    Last Name:
+                    <input type="text" name="lname" id="lastName" required placeholder="Last Name" />
+
+                </label>
+
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" id="email" required placeholder="Email@Example.com" />
+
+                </label>
+
+            </fieldset>
+
+            <fieldset class="label2">
+                <legend>
+                    Reservation Request
+                </legend>
+
+                <label for="advise">
+
+                    <select name="advisor" id="advise">
+                        <option value="markley">Kirsten Markley</option>
+                        <option value="ford">Tiffany Ford</option>
+                        <option value="lewis">Jackson Lewis</option>
+
+                    </select>
+                </label>
+
+                <label for="month">
+
+                    <select name="month" id="month">
+                        <option value="jan">January</option>
+                        <option value="feb">Febuary</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="may">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+
+                    </select>
+                </label>
+
+                <label for="day">
+
+                    <input type="number" id="day" name="day" min="1" max="31" required />
+
+                </label>
+
+
+
+                <label class="posReset" for="am">
+                    <input class="posReset" type="radio" id="am" name="tod" value="am">
+                    AM
+
+                </label>
+
+
+                <label class="posReset" for="pm">
+                    <input class="posReset" type="radio" id="pm" name="tod" value="pm">
+                    PM
+                </label>
+
+
+            </fieldset>
+
+            <fieldset class="label3">
+
+                <legend>
+                    Classes You Want To Take Next Semester
+                </legend>
+
+                <label for="java">
+
+                    <input type="radio" id="java" name="java">
+                    Java
+
+
+                </label>
+
+                <label for="csharp">
+
+                    <input type="radio" id="csharp" name="csharp">
+                    C#
+
+
+                </label>
+
+                <label for="webd">
+
+                    <input type="radio" id="webd" name="webdev">
+                    Web Dev
+
+
+                </label>
+
+                <label for="db">
+                    <input type="radio" id="db" name="db">
+                    Database
+
+
+                </label>
+
+                <label for="ds">
+                    <input type="radio" id="ds" name="ds">
+                    Data Structures
+
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>
+                    Additional Info
+                </legend>
+
+                <textarea id="addinfo" name="addinfo" placeholder="Any Additional Info" rows="4" cols="50"></textarea>
+
+
+            </fieldset>
+
+            <input class="submit" type="submit" value="Submit" />
+
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

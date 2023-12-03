@@ -1,0 +1,49 @@
+body { 
+    background-image: url(terminal-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+table {
+    margin: 80px 0px 0px 180px; 
+    width: 77%;
+    height: 450px;
+}
+
+table, th, td {
+    text-align: center;
+    border: 4px #0DAB76 solid;
+    color: black;
+
+}
+
+tr, td, th { 
+    width: 64px;
+    height: 64px;
+
+}
+
+
+table {
+    box-shadow: 10px 10px ;
+
+}
+
+tr:nth-child(even) {
+    background-color: #808F85;
+}
+
+tr:nth-child(odd) {
+    background-color: #F2E9DC;
+}
+
+.online { 
+    background-color: #CFD11A;
+
+}
+
+.scheduled { 
+    background-color: #91C499;
+
+}

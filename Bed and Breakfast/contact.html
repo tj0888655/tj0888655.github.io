@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    Name: Timoteo Jinks
+    Date: 11/18/23
+
+    File Name: contact.html
+
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/023ea9d446.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark justify-content-center">
+
+        <ul class="navbar-nav text-center ">
+            <li class="nav-item mx-5 px-5">
+                <button type="button" class="btn btn-primary"><a class="nav-link active link-opacity-10-hover"
+                        aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a></button>
+            </li>
+            <li class="nav-item mx-5 px-5 mt-2">
+                <a class="nav-link" href="#">Plumeria Room</a>
+            </li>
+            <li class="nav-item mx-5 px-5 mt-2">
+                <a class="nav-link" href="#">Maile Room</a>
+            </li>
+            <li class="nav-item mx-5 px-5 mt-2">
+                <button type="button" class="btn btn-secondary"><a class="nav-link active link-opacity-10-hover"
+                        aria-current="page" href="contact.html"><i class="fa-regular fa-envelope"></i>
+                        Contact</a></button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container text-center mt-2 thing">
+        <h1 class="mb-4 text-primary">Contact Us</h1>
+        <div class="row ttb">
+            <div class="col">
+                <form>
+                    <p>For booking &/or reservation requests, please email us & provide the number of the nights you wish to stay,
+                    your check out date & date along any questions you may have. Phone numbers are requested in case of any email
+                    address errors for us to be able to reply promptly to you.
+                    </p>
+
+                    <input class="form-control inName mb-5" autofocus type="text" name="fname" id="firstName" required placeholder="First Name" />
+                    <input class="form-control inName mb-5" type="text" name="lname" id="lastName" required placeholder="Last Name" />
+                    <input class="form-control mb-5" type="email" name="email" id="email" required placeholder="Email@Example.com" />
+                    <input class="form-control mb-5" type="tel" name="phone#" id="phone" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+                    <button type="submit" class="btn btn-dark mb-3">Get Rates and Availability</button>
+
+                </form>
+            </div>
+            <div class="col">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.1847952250682!2d-157.74966632408965!3d21.42198027415556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0015399eb53f0b%3A0xf8b93ccbb6bb3ebe!2s804%20Mokapu%20Rd%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1700342700318!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-secondary text-light text-center">
+        <i class="fa-sharp fa-solid fa-location-dot mt-4"></i> 804 Mokapu Road
+        &#8226; Kailua HI 96734
+        <i class="fa-regular fa-envelope"></i> kailuakovebnb@gmail.com
+        <i class="fa-solid fa-phone"></i> 808-261-1431
+    </footer>
+
+
+</body>
+
+</html>

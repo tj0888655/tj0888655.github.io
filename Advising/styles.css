@@ -1,0 +1,64 @@
+/*
+    Name: Timoteo Jinks
+    Date: 11/4/2023
+
+    file: style.css
+
+
+*/
+
+
+
+
+body { 
+    background-image: url(Meeting.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: antiquewhite;
+}
+
+.container { 
+    margin: auto;
+    width: 80%;
+    background-color:beige;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h1 { 
+    text-align: center;
+}
+
+label { 
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 15%;
+    width: 75%;
+}
+
+.label2 > label { 
+    display: table-cell;
+    padding-bottom: 5px;
+    width: 20%;
+}
+
+.label3 > label, .label3 > label > input { 
+    position: initial;
+    width: initial;
+    display: table-cell;
+}
+
+.posReset { 
+    position: initial;
+    width: initial;
+}
+
+.submit {
+    width: initial;
+    position: initial;
+}

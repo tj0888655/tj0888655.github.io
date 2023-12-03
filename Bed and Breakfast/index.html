@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    Name: Timoteo Jinks
+    Date: 11/17/23
+
+    File Name: index.html
+
+-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/023ea9d446.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark justify-content-center">
+
+        <ul class="navbar-nav text-center ">
+            <li class="nav-item mx-5 px-5">
+                <button type="button" class="btn btn-primary"><a class="nav-link active link-opacity-10-hover"
+                        aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a></button>
+            </li>
+            <li class="nav-item mx-5 px-5 mt-2">
+                <a class="nav-link" href="#">Plumeria Room</a>
+            </li>
+            <li class="nav-item mx-5 px-5 mt-2">
+                <a class="nav-link" href="#">Maile Room</a>
+            </li>
+            <li class="nav-item mx-5 px-5 mt-2">
+                <button type="button" class="btn btn-secondary"><a class="nav-link active link-opacity-10-hover"
+                        aria-current="page" href="contact.html"><i class="fa-regular fa-envelope"></i>
+                        Contact</a></button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="thing text-primary">
+        <p class="h1 text-center mt-2">Kailua Kove</p>
+
+        <p class="h3 text-center">Bed & Breakfast</p>
+
+        <p class="text-center flavor">Just a 5-Minute walk away to the beach... Our local beach is pretty quiet with the
+            locals gooing for their daily walk or walking their dogs. Turn left and walk past the 2 buildings and the
+            newly opened Nico's Restaurant, cross the bridge and after the first street to your left, you will find a
+            narrow pathway that has access to the beach.
+        </p>
+    </div>
+
+    <div id="carousel" class="carousel slide thing mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/kailua2.jpg" class="d-block w-100" alt="pic1">
+                <div class="carousel-caption d-none d-md-block flavor">
+                    <h5 class="fw-bold">Kailua Kove</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/kailua3.jpg" class="d-block w-100" alt="pic2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold">Backyard Pool Time & Barbecue</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/kailua4.jpg" class="d-block w-100" alt="pic3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="fw-bold">Beautiful Lanikai Beach within walking distance</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden ">Next</span>
+        </button>
+    </div>
+
+
+    <div class="mt-5 mb-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col rounded">
+                    <img class="picfit rounded" src="images/plumeriaRoom.jpg" alt="room1">
+                    <div class="card expand">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Plumeria Room</h5>
+                            <p class="card-text">
+                                Queen bed, private bathroom with shower, WiFi, cable TV, ceiling fan, and sliding door
+                                to Lanai.
+                            </p>
+                            <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- empty space -->
+                </div>
+                <div class="col rounded">
+                    <img class="picfit rounded" src="images/maileRoom1.jpg" alt="room2">
+                    <div class="card expand">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Malie Room</h5>
+                            <p class="card-text">
+                                Large room with king size bed, small table with desk, WiFi, cable TV, ceiling fan, and
+                                sliding door to lanai.
+                            </p>
+                            <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <!-- empty space -->
+                </div>
+                <div class="col rounded">
+                    <img class="picfit rounded" src="images/kailua1.jpg" alt="scenery">
+                    <div class="card expand">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Contact Us</h5>
+                            <p class="card-text">
+                                Located in Kailua on theSouth Shore of Oahu, just a 5 minute walk to beautiful Lanikai
+                                Beach.
+                            </p>
+                            <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ammen">
+        <div class="container text-center">
+            <h3 class="fw-bold">Amenities</h3>
+            <div class="row">
+                <div class="col mt-2 mb-5 lh-1">
+                    <p>Free Onsite Parking</p>
+                    <p>Separate Entrance</p>
+                    <p>Air-Condition & Ceiling Fan</p>
+                    <p>Upscale Private Bathroom with Walk-In Shower</p>
+                </div>
+                <div class="col mt-2 mb-5 lh-1">
+                    <p>Kitchenette with Mini Fridge, Microwave</p>
+                    <p>Keurig Coffeemaker</p>
+                    <p>Free Continental Breakfast (self-serve)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-secondary text-light text-center">
+        <i class="fa-sharp fa-solid fa-location-dot mt-4"></i> 804 Mokapu Road
+        &#8226; Kailua HI 96734
+        <i class="fa-regular fa-envelope"></i> kailuakovebnb@gmail.com
+        <i class="fa-solid fa-phone"></i> 808-261-1431
+    </footer>
+
+</body>
+
+</html>

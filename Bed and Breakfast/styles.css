@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*
+    Name: Timoteo Jinks
+    Date: 11/17/23
+
+    File Name: styles.css
+
+*/
+
+body { 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+
+.thing {
+    width: 85%;
+    margin: auto;
+
+}
+
+p.flavor { 
+    width: 50%;
+    margin: auto;
+    color: rgb(97, 194, 162);
+
+} 
+
+.picfit { 
+    width: 100%;
+
+}
+
+.col { 
+    padding: 0;
+}
+
+
+
+.ammen {
+    background-image: url(images/background.png);
+
+}
+
+footer { 
+    align-items: center;
+    height: 75px;
+
+}
+
+.ttb { 
+    padding-bottom: 21%;
+}
+
+.inName { 
+    width: 50%;
+}
