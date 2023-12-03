@@ -14,7 +14,7 @@ body {
     box-shadow: 0px 10px 15px 7px #888888;
   }
 
-ul {
+nav>ul {
     list-style-type: none;
     margin: 5px 0 10px 5%;
     padding: 0;
@@ -26,7 +26,7 @@ ul.spacing {
     word-spacing: 200px;
 }
 
-li {
+nav>ul>li {
     display: inline;
 }
 
@@ -72,12 +72,12 @@ nav {
 }
 
 .con1 {
-    padding-left: 5%;
+    padding-left: 3.5%;
     background-color: #FEFFBE;
     margin-bottom: 46px;
 }
 
-.con1 > img { 
+.con1 > img, .con1 > section { 
     margin: 24px 0 24px 0 ;
     display: inline;
     width: 15%;
@@ -86,16 +86,23 @@ nav {
 }
 
 .con1 > section { 
-    margin: 24px 0 24px 0 ;
-    display: inline;
-    width: 15%;
-    padding: 0;
-    float: left;
+    border: 2px solid black;
+    line-height: 2em;
+}
+
+.con1 > section > ul > li { 
+    margin-right: 10%;
 }
 
 .con1 > p, .con1 > h2 { 
     margin: 24px 2% 24px 18%;
 
+}
+
+/* text styles */
+
+h4 { 
+    text-align: center;
 }
 
 h2 {
@@ -107,6 +114,10 @@ h2 {
 p { 
     font-size: 1.5em;
     line-height: 1.4em;
+}
+
+.no { 
+    font-size: .85em;
 }
 
 /* container 2 class styles */
@@ -140,8 +151,45 @@ p {
     box-shadow: 0px 10px 10px 5px #1b6448;
 }
 
+.con4-shadow { 
+    box-shadow: 0px 10px 10px 5px crimson;
+}
+
 .colorOR { 
     background-color: #2D936C;
+}
+
+.colorORperi { 
+    background-color: #AEB8FE;
+}
+
+/* table styles */
+
+table { 
+    background-color: white;
+    margin: 24px 12% 24px 50%;
+}
+
+
+tr:nth-child(even) { 
+    background-color: aliceblue;
+}
+
+tr:nth-child(odd) { 
+    background-color: gray;
+}
+
+table, th, td {
+    border: 2px solid black; 
+
+}
+
+/* fieldset styles */
+
+fieldset { 
+    margin: 24px 12% 24px 27%;
+    width: 50%;
+
 }
 
 
