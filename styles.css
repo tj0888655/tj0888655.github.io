@@ -1,1 +1,172 @@
 @charset "utf-8";
+
+/*Html and body styles*/
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+
+/* Navbar Styles*/
+
+#Nav-shadow {
+    box-shadow: 0px 10px 15px 7px #888888;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 5px 0 10px 5%;
+    padding: 0;
+    font-size: 30px;
+
+}
+
+ul.spacing {
+    word-spacing: 200px;
+}
+
+li {
+    display: inline;
+}
+
+nav>ul>li>a:visited, nav>ul>li>a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav>ul>li>a:hover, nav>ul>li>a:active { 
+    text-decoration: underline;
+    color: crimson;
+}
+
+nav {
+    background-color: #2F323A;
+    height: 50px;
+    margin-bottom: 2%;
+    display: flex;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+/* container for flex styles */
+
+.container {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+
+    justify-content: center;
+}
+
+/* container 1 class styles */
+
+.con1-shadow { 
+    box-shadow: 0px 10px 10px 5px #cecf95;
+}
+
+.con1 {
+    padding-left: 5%;
+    background-color: #FEFFBE;
+    margin-bottom: 46px;
+}
+
+.con1 > img { 
+    margin: 24px 0 24px 0 ;
+    display: inline;
+    width: 15%;
+    padding: 0;
+    float: left;
+}
+
+.con1 > section { 
+    margin: 24px 0 24px 0 ;
+    display: inline;
+    width: 15%;
+    padding: 0;
+    float: left;
+}
+
+.con1 > p, .con1 > h2 { 
+    margin: 24px 2% 24px 18%;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: overline underline;
+}
+
+p { 
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+/* container 2 class styles */
+
+.con2-shadow { 
+    box-shadow: 0px 10px 10px 5px #8e96d1;
+}
+
+.con2 {
+    padding-left: 3%;
+    background-color: #AEB8FE;
+    margin-bottom: 46px;
+}
+
+.con2 > img { 
+    margin: 24px 3% 24px 5% ;
+    display: inline;
+    width: 15%;
+    padding: 0;
+    float: right;
+}
+
+.con2 > p, .con2 > h2 { 
+    margin: 24px 12% 24px 2%;
+    
+}
+
+/* Color override for a container */
+
+.con3-shadow { 
+    box-shadow: 0px 10px 10px 5px #1b6448;
+}
+
+.colorOR { 
+    background-color: #2D936C;
+}
+
+
+/* footer styles */
+
+footer { 
+    color: white;
+    background-color: #2F323A;
+    text-align: center;
+    height: 50px;
+    font-size: 2.3em;
+}
+
+
+
+@media screen and (max-width: 480px)  {
+    
+    body {
+        background-image: url(cat-explosion.gif);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .container { 
+        display: none;
+    }
+
+}

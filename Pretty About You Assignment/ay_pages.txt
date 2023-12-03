@@ -1,0 +1,59 @@
+Who am I?
+
+The name is Timoteo Jinks, or Tim for short, just an average dude doing things and learning from them. I don't do a whole lot outside of work, I mostly play 
+video games in my spare time and dabble into some pixel art. Over the summer I decided to take some summer classes at OTC, Biology and Trigonometery,
+a tough duo I managed to take down. I was also introduced to an intersting program over the summer, called Smack Studio, which allows me to take pixel art
+I have made and put into playable characters.
+
+==================================================================================================================================================================
+
+Hobbies
+
+Video Games
+
+I play a variety of games but here lately I have been play a lot of rouge-like games.
+Rouge-like games are interesting in the way they are designed, you start a "run" collect items, power-ups, etc. and 
+play through until you meet an endgame objective or lose alltogeher.
+
+What's neat about rouge-likes though is that each play through is generated differently than the last, so no 2 runs will ever be "exactly the same.
+
+Here's a few that I have been playing through:
+	The Binding of Issac: Repentance
+	Slay the Spire
+	Vampire Survivors 
+
+Pixel Art
+
+As well as playing video games I tend the like to the style that the retro games were limited to. So much so that I have kinda delved into making 
+what is called "Pixel Art", which is art that mimics the the classic look of retro games from console like the NES and SNES.
+
+Though I am still learning how to improve, I have been having fun just playing around with Aesprite (an art application) and making some sprites.
+
+==================================================================================================================================================================
+
+Classes I have taken so far
+
+At the time of this being made this will be my third semester here at OTC and I feel as though I m beginning to get into the meat of the Computer
+Science Degree Program. Should things go well, I should be able to graduate in Spring 2025. On top of maintaining a full-time job at CNH Reman, 
+I hope to finish this semester and many more head strong!!
+
+Here is a list of all the other classes I have taken thus far:
+
+	Fall 2022:
+		ENG-101: Composition I
+		CIS-101: Technology & Digital Literacy
+		CIS-120: Intro To Computer Programming
+
+	Spring 2023:
+		COM-105: Public Speaking
+		HST-120: U.S. History I: To 1865
+		CIS-150: C# Programming I
+	
+	Summer 2023:
+		BIO-160: General Biology I
+		MTH-131: Trigonometery
+
+	Fall 2023:
+		CIS-130: Web Site Development I
+		CIS-151: C# Programming II
+		CIS-250: Database and Query
