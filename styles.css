@@ -192,6 +192,11 @@ fieldset {
 
 }
 
+fieldset>ul>li {
+    list-style: none;
+    line-height: 2em;
+}
+
 
 /* footer styles */
 
@@ -203,18 +208,56 @@ footer {
     font-size: 2.3em;
 }
 
+@media screen and (max-width: 734px) {
+
+    .con1, .con2 { 
+        padding: 0;
+    }
+    .con1 > img, .con2 > img {
+        display: none;
+    }
+
+    .con2 > p, .con2 > h2, .con1 > p, .con1 > h2 { 
+        text-align: center;
+        margin: 24px 24px 24px 24px;
+        
+    }
+
+    .con1 > section { 
+        margin: 5% 20% 10% 10% ;
+        display: block;
+        width: 80%;
+        padding: 0;
+        
+    }
+
+    ul.spacing {
+        word-spacing: 6.85em;
+    }
+
+    table { 
+        background-color: white;
+        margin: 24px 12% 24px 33%;
+    }
+
+    fieldset { 
+        width:30%;
+
+    }
+
+    fieldset>ul>li {
+        margin:auto;
+        line-height: 2em;
+    }
+    
+
+}
 
 
 @media screen and (max-width: 480px)  {
     
-    body {
-        background-image: url(cat-explosion.gif);
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .container { 
-        display: none;
+    ul.spacing {
+        word-spacing: 5.50em;
     }
 
 }
